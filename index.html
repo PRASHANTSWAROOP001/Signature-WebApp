@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div id="left">
+            <div class="container">
+              <label  for="colorPicker">Text color</label>
+              <br>
+             <input class="selectBox" type="color" name="colorPicker" id="colorPicker" >
+            </div>
+          <div class="container">
+            <label class="bg-color-text" for="backgroundColor">Background color</label>
+            <br>
+            <input class="selectBox" type="color" name="backgroundColor" id="backgroundColor" value="#ffffff">
+          </div>
+
+          <div class="container">
+
+            <label  for="FontSize">Font Size</label>
+            <br>
+            <select name="FontSize" id="FontSize">
+               <option value="5">5px</option>
+               <option value="10">10px</option>
+               <option value="15">15px</option>
+               <option value="20">20px</option>
+               <option value="25">25px</option>
+
+            </select>
+
+          </div>
+
+
+           <div class="container">
+            <button class="btn" id="Save">Save</button>
+           </div>
+
+            <div class="container">
+            <button class="btn" id="clear">Clear</button>
+            </div>
+            
+        </div>
+        <div id="right">
+            <canvas id="myCanvas" width="800" height="585"></canvas>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
