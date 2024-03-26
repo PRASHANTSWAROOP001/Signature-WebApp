@@ -4,6 +4,16 @@ const ctx = canvas.getContext("2d");
 const colorPicker = document.getElementById("colorPicker")
 
 isDrawing = false;
+let lastX,lastY;
+
+function ChangeBgWhite(){
+    if(ctx.fillStyle == "#000000" && ctx.strokeStyle == "#000000"){
+        ctx.fillStyle = "white"
+        ctx.fillRect(0,0,canvas.width,canvas.height);
+    }
+}
+
+ChangeBgWhite()
 
 
 function addDate(){
@@ -51,13 +61,13 @@ console.log(backgroundColor)
 
 backgroundColor.addEventListener("change", (e) => {
     ctx.fillStyle = e.target.value
-    ctx.fillRect(0,0,800,585)
+    console.log(e.target.value)
+    ctx.fillRect(0,0,canvas.width,canvas.height)
 })
 
 const clearBtn = document.getElementById("clear");
 
 clearBtn.addEventListener("click",(e) => {
-    ctx.fillStyle = "#ffffff"
     ctx.clearRect(0,0,800,585);
 })
 
