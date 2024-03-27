@@ -16,23 +16,24 @@ cd signature-canvas-project
 # open index.html in your browser
 ```
 
-## 🤝 Contributing 
-
-Feel the urge to add more cool features? Fork this project 🌟 and make it more awesome and user friendly.
-
-```git fork https://github.com/PRASHANTSWAROOP001/Signature-WebApp
-
-# make your awesome changes
-# submit a pull request```
+## 🤝 Contributing
+Feel the urge to add more cool features? Fork this project 🌟 and make it more awesome and user-friendly.
 
 We encourage everyone to contribute & submit pull requests to make this project even more awesome! 🙌
 
+```git fork https://github.com/PRASHANTSWAROOP001/Signature-WebApp
+
+#make your awesome changes
+#submit a pull request 
+# we encourage you to add more functionality please feel free to clone/fork this project.
+```
+
 ## 📄 License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License. Refer to the LICENSE.md file for details.
 
 Happy signing! 🖋️
 
-Feel free to customize this template to better fit your project's needs. Encourage collaboration and creativity, and don't forget to add your GitHub repository link to the README so others can easily find and fork your project. Good luck! 🚀
+```Feel free to customize this template to better fit your project's needs. Encourage collaboration and creativity, and don't forget to add your GitHub repository link to the README so others can easily find and fork your project. Good luck! 🚀```
 
 
 
